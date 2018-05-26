@@ -19,9 +19,10 @@ void LinearEquation(){
   }
   else if (a != 0){
     printf("x == %d\n", -b/a);
-    printf("%d X %d = %d\n", a, x, b);
+    x = (-b)/a;
+    printf("%d X %d == %d\n", a, x, b);
   }
-  
+
 }
 
 void QuadraticEquation(){

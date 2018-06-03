@@ -75,5 +75,6 @@ int main(){
     printf("err");
   }
 
+  printf("ended");
   return 0;
 }
